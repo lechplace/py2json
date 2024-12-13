@@ -44,4 +44,7 @@ Thumbs.db
 *.lnk
 
 # Ignore JSON outputs
-output.json
+*.json
+
+# Bash scripts 
+setup.sh

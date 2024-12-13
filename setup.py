@@ -1,18 +1,19 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="py2json",  # Zmieniona nazwa paczki
-    version="1.0.0",
-    description="A tool to convert Python files to a JSON file.",
+    name="pycodes2json",
+    version="1.1.0",
+    description="A tool to convert Python files to a single JSON file and extract python files from JSON file.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Lech Hubicki",
     author_email="lech.hubicki@gmail.com",
-    url="https://github.com/lechplace/py2json",  # Zaktualizuj URL do repozytorium
+    url="https://github.com/lechplace/py2json",
     packages=find_packages(),
     entry_points={
         "console_scripts": [
-            "py2json=py2json.main:py2json",  # Aktualizacja wpisu konsoli
+            "py2json=py2json.main:main_py2json",
+            "json2py=py2json.main:main_json2py"
         ],
     },
     classifiers=[
