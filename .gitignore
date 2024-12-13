@@ -1,0 +1,47 @@
+# Python-specific files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.env/
+.venv/
+ENV/
+
+# Byte-compiled and debug files
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Distribution files
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+
+# IDE settings
+*.sublime*
+
+# Specific for macOS
+.AppleDouble
+.LSOverride
+
+# Specific for Windows
+*.lnk
+
+# Ignore JSON outputs
+output.json
